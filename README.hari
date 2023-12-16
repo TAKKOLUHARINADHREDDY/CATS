@@ -1,0 +1,39 @@
+Text Summarization using T5 (Hugging Face)
+Overview
+This repository contains code for performing text summarization using the T5 (Text-To-Text Transfer Transformer) model from Hugging Face Transformers. The implementation uses TensorFlow and Keras for training and inference.
+
+Getting Started
+Prerequisites
+Make sure you have the required dependencies installed. You can install them using:
+
+bash
+Copy code
+pip install transformers==4.20.0
+pip install keras_nlp==0.3.0
+pip install datasets
+pip install huggingface-hub
+pip install nltk
+pip install rouge-score
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+Install the required Python packages:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Open the Jupyter Notebook hari_reddy-summarization_using_T5.ipynb using a Jupyter environment.
+
+Run the notebook cell by cell, ensuring that dependencies are installed as mentioned in the first cell.
+
+Follow the instructions and comments in the notebook to understand each step, including loading the dataset, tokenization, model training (uncomment if needed), and summarization.
+
+Customize the code as needed for your specific use case, such as using a different dataset or adjusting hyperparameters.
+
+Dataset
+The code utilizes the XSum dataset from EdinburghNLP. You can replace it with your own dataset by modifying the data_path variable in the notebook.
